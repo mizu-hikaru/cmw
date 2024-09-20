@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CommonMark Website</title>
+    <link href="https://commonmarkwebsite.org/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>CommonMark Website</h1>
+<p>Website creation simplified.</p>
+
+        </header>
+
+        <nav> <a href='/'>Documentation</a>  <a href='/feedback.html'>Feedback</a>  <a href='https://github.com/mizuki-hikaru/cmw'>GitHub Repository</a> </nav>
+
+        <link rel="stylesheet" href="https://formflow.org/styles.css" />
+<form
+    class="formflow"
+    id="formflow"
+    action="https://formflow.org/email"
+    method="POST"
+    enctype="multipart/form-data"
+>
+    <!-- REQUIRED FIELDS: user_id -->
+    <input type="hidden" name="user_id" value="23d601f8-7f43-462e-91b1-ac7daa688ea3" />
+    <label for="field-message">Message:</label>
+    <textarea id="field-message" name="Message" placeholder="Message"></textarea>
+    <label for="field-attachments">File attachments:</label>
+    <input type="file" name="Attachments" multiple />
+    <button type="submit">Send</button>
+</form>
+<script src="https://hikaru.org/js/FRM.js"></script>
+<script>FRM.listen(document.getElementById("formflow"));</script>
+
+
+        <footer>
+            
+        </footer>
+    </div>
+</body>
+
+</html>
